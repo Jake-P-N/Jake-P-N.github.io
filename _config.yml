@@ -48,7 +48,7 @@ linkedin_username: jake-nellesen-552aa6278
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Hello! My name is Jake Nellesen and I am a CyberSecurity Student at CSUF.  I have experience as a Developer in C++, HTML, CSS, and Python.  My speciality is C++, and I have a Certificate of Specialization in C++ from OCC.  I am a self taught website and Frontend developer, and I hope to continuing to learn and grow my skills.  I am a good team player, with limited experience in team leadership.
+  Hello! My name is Jake Nellesen and I am a CyberSecurity Student at CSUF.  I have experience as a Developer in C++, HTML, CSS, and Python.  My speciality is C++, and I have a Certificate of Specialization in C++ from OCC.  I am a self taught website and Frontend developer, and I hope to continuing to learn and grow my skills.  I am a good team player, with minor experience in team leadership.
 
 content:
   - title: Education # Title for the section
