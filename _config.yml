@@ -1,0 +1,146 @@
+# Site
+repository: Jake-P-N/Jake-P-N.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Jake Nellesen
+title: Cybersecurity Student
+email: Jake.Nellesen@gmail.com
+website: https://crow.port0.org
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+# twitter_username: facespics
+github_username: Jake-P-N
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: comrade_corvid
+linkedin_username: jake-nellesen-552aa6278
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: 
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.png
+about_content: | # this will include new lines to allow paragraphs
+  Hello! My name is Jake Nellesen and I am a Cybersecurity Student at CSUF.  I have experience as a Developer in C++, HTML, CSS, and Python.  My specialty is C++, and I a=have a Certificate of Specializationin C++ from OCC.  I am a self taught website and frontend developer, and I hope to continuing to learn and grow my skills.  I am a good team player, with limited experience in team leadership.
+
+content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Orange Coast College
+        caption: Aug 2021 - May 2023
+        sub_title: Associates of Science Degree in Computer Science
+        description: | # this will include new lines to allow paragraphs
+          I learned so much during my time at Orange Coast, and I reaffirmed that programming and CyberSecurity was something that I found fun and wanted to work towards.  I was able to keep up with a high courseload, and gained a foundational knowledge of how the underlying technologies underpinning the internet works.
+      - layout: left
+        title: California State University, Fullerton
+        caption: Aug 2024- Present
+        sub_title: Associates of Science Degree in Computer Science, Cybersecurity Concentration
+        description: I am currently working toward my bachelors in Computer Science at CSUF, and fully enjoying my time as a full time student.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Orange County Fair
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Security and Safety officer
+        caption: 2023 - Present
+        description: | # this will include new lines to allow paragraphs
+          Worked in gate security during the fair, and during events occasionally throughout the year, and as a shift lead.
+      - layout: left
+        title: Costco
+        sub_title: Cashiers Assistant
+        caption: 2023
+        description: Worked in retail and in customer service.
+      - layout: left
+        title: National Compliance Systems
+        sub_title: Data entry clerk
+        caption: 2023
+        description: Worked to onboard client data into NCSs cloud, and worked to manage thier data.
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Gdungeon
+        link: anonymous-crow.github.io/Gdungeon
+        # link_text: Project Website
+        additional_links:
+          - title:  anonymous-crow/Gdungeon
+            icon: fab fa-github
+            url: github.com/anonymous-crow/Gdungeon
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          An excercise in game design
+        description: | # this will include new lines to allow paragraphs
+          I am currently working on implementing Jonathan Binns' Gangster Dungeon card game into C++, so it can be iterated and improved on during the testing phase.  This project is a learning experience before anything else, and an excuse to build an efficient application in C++ from the ground up.
+      - layout: top-middle
+        title: podweb
+        link: git.tilde.institute/comradecrow/podweb
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  anonymous-crow/Gdungeon
+        #     icon: fab fa-github
+        #     url: github.com/anonymous-crow/Gdungeon
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          A simple Utility
+        description: | # this will include new lines to allow paragraphs
+          An unfinished podcast fetcher and manager written in Python.  Designed to be easy to use and automate.  Great for backing up podcasts so they can be listened to later.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Some of my other interests and hobbies are:
+      - Rock climbing
+      - TTRPGs
+      - Swimming
+      - Rock Crawling
+      - Snowboarding
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
