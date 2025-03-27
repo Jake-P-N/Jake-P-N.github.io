@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Jake Nellesen
-title: Cybersecurity Student
+title: CyberSecurity Student
 email: Jake.Nellesen@gmail.com
 website: https://crow.port0.org
 
@@ -48,7 +48,7 @@ linkedin_username: jake-nellesen-552aa6278
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Hello! My name is Jake Nellesen and I am a Cybersecurity Student at CSUF.  I have experience as a Developer in C++, HTML, CSS, and Python.  My specialty is C++, and I a=have a Certificate of Specializationin C++ from OCC.  I am a self taught website and frontend developer, and I hope to continuing to learn and grow my skills.  I am a good team player, with limited experience in team leadership.
+  Hello! My name is Jake Nellesen and I am a CyberSecurity Student at CSUF.  I have experience as a Developer in C++, HTML, CSS, and Python.  My speciality is C++, and I have a Certificate of Specialization in C++ from OCC.  I am a self taught website and Frontend developer, and I hope to continuing to learn and grow my skills.  I am a good team player, with limited experience in team leadership.
 
 content:
   - title: Education # Title for the section
@@ -63,8 +63,8 @@ content:
       - layout: left
         title: California State University, Fullerton
         caption: Aug 2024- Present
-        sub_title: Associates of Science Degree in Computer Science, Cybersecurity Concentration
-        description: I am currently working toward my bachelors in Computer Science at CSUF, and fully enjoying my time as a full time student.
+        sub_title: Associates of Science Degree in Computer Science, CyberSecurity Concentration
+        description: I am currently working toward my Bachelors in Computer Science at CSUF, and fully enjoying my time as a full time student.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -86,7 +86,7 @@ content:
         title: National Compliance Systems
         sub_title: Data entry clerk
         caption: 2023
-        description: Worked to onboard client data into NCSs cloud, and worked to manage thier data.
+        description: Worked to onboard client data into NCSs cloud, and worked to manage their data.
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
